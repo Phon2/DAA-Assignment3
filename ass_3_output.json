@@ -1,0 +1,51 @@
+{
+  "results": [
+    {
+      "graphId": 1,
+      "totalWeight": 16,
+      "mstEdges": [
+        {
+          "from": "B",
+          "to": "C",
+          "weight": 2
+        },
+        {
+          "from": "A",
+          "to": "C",
+          "weight": 3
+        },
+        {
+          "from": "B",
+          "to": "D",
+          "weight": 5
+        },
+        {
+          "from": "D",
+          "to": "E",
+          "weight": 6
+        }
+      ]
+    },
+    {
+      "graphId": 2,
+      "totalWeight": 6,
+      "mstEdges": [
+        {
+          "from": "A",
+          "to": "B",
+          "weight": 1
+        },
+        {
+          "from": "B",
+          "to": "C",
+          "weight": 2
+        },
+        {
+          "from": "C",
+          "to": "D",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}
